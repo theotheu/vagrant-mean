@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+export DEBIAN_FRONTEND=noninteractive
+
+echo $DEBIAN_FRONTEND
+
 apt-get update -q -y
 apt-get upgrade -q -y
 
