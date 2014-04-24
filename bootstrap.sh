@@ -25,3 +25,5 @@ cd node-v*
 make
 make install
 
+# install git
+apt-get -q -y git
